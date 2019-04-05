@@ -1,0 +1,80 @@
+.margeHaut
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+html,body
+{
+    margin: 0;
+    height: 100%;
+}
+.bg-sm
+{
+    background-image: url("../img/GameOver.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+.bg
+{
+    background-image: url("../img/GameOver.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+.hauteur100{
+    height: 100%;
+}
+
+
+.backrouge
+{
+    background: orange;
+    height: 300px;
+    text-align: center;
+
+}
+hr{
+    padding-bottom:30px;
+    padding-top:30px;
+    max-width: 500px;
+    border-width: 5px;
+    border-color: #f05f40;
+}
+
+.zero{
+    margin: 0;
+    padding: 0;
+}
+
+.parallax1 {
+    background-image: url("../img/GameOver.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+
+.parallax2 {
+    background-image: url("../img/GameOver.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+}
+.padingtop
+{
+    padding-top: 15px;
+}
+.margin
+{
+    margin-right: 5px;
+    margin-left: 5px;
+}

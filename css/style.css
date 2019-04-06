@@ -1,7 +1,6 @@
 .margeHaut
 {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 15px;
 }
 
 html,body
@@ -9,18 +8,9 @@ html,body
     margin: 0;
     height: 100%;
 }
-.bg-sm
-{
-    background-image: url("../img/GameOver.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-
-}
 .bg
 {
-    background-image: url("../img/GameOver.jpg") ;
+    background-image: url("../img/BobsBurgers.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,11 +22,23 @@ html,body
 }
 
 
-.backrouge
+.backrouge1
 {
     background: orange;
     height: 300px;
     text-align: center;
+
+}
+.backrouge2
+ {
+     background: orange;
+     height: 200px;
+     text-align: center;
+
+ }
+.backrouge3
+{
+    background: orange;
 
 }
 hr{
@@ -53,7 +55,7 @@ hr{
 }
 
 .parallax1 {
-    background-image: url("../img/GameOver.jpg");
+    background-image: url("../img/Paralax1Bob.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -62,7 +64,7 @@ hr{
 }
 
 .parallax2 {
-    background-image: url("../img/GameOver.jpg");
+    background-image: url("../img/Paralax2Bob.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -77,4 +79,11 @@ hr{
 {
     margin-right: 5px;
     margin-left: 5px;
+}
+
+@media only screen and (max-width: 500px){
+
+    .bg{
+        background-image: url("../img/BobsBurgersCell.jpg");
+    }
 }
